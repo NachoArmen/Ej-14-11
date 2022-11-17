@@ -9,6 +9,7 @@ public class Articulos {
     }
 
     public void setPrecio(double precio) {
+
         this.precio = precio;
     }
 
@@ -18,14 +19,17 @@ public class Articulos {
     }
 
     public void setNombre(String nombre) {
+
         this.nombre = nombre;
     }
 
     public boolean isDisponibilidad() {
+
         return disponibilidad;
     }
 
     public void setDisponibilidad(boolean disponibilidad) {
+
         this.disponibilidad = disponibilidad;
     }
 }
